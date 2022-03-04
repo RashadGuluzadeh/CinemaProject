@@ -2,6 +2,9 @@
 *{
     box-sizing: border-box;
 }
+body{
+    font-family: Robot Slab;
+}
 @media screen and (min-width: 320px) and (max-width: 991px){
     .container{
         margin-left: 35px;
@@ -9,6 +12,11 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+    .Program-course h1{
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 26px;
     }
 
 }
