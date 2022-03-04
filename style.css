@@ -132,10 +132,47 @@ line-height: 150%;
         line-height: 26px;
 
     }
+    .Program-course div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 185.92px;
+        height: 152.84px;
+        box-shadow: 1px 1px 1px 1px #B0B0B0   ;
+        border-radius: 0 0 15px 15px;
+    }
+    .Program-course img{
+        width: 185.92px;
+        height: 74.56px;
+    }
+    .Program-course .text{
+        padding: 5.13px 9px 7.84px ; 
+        border-radius: 0 0 15px 15px;
+    }
+    .Program-course h3{    
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 130%;
+        margin-bottom: 15.15px;
+        margin-top: 5.13px;
+    }
+    .Program-course p{
+        font-size: 12px;
+        line-height: 130%;  
+        width: 106px;
+        height: 32px;
+        margin: 0;
+    }
+
 
 
 }
 
-@media screen and (min-width: 992px) and (max-width: 1279px) {}
+@media screen and (min-width: 992px) and (max-width: 1279px) {
 
-@media (min-width: 1280px) {}
+}
+
+@media (min-width: 1280px) {
+
+}
+}
