@@ -1,20 +1,172 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-*{
+* {
     box-sizing: border-box;
     list-style: none;
 }
+<<<<<<< HEAD
+
+.main {
+    display: flex;
+    margin-left: 124px;
+}
+
+.main h1 {
+    font-size: 55px;
+    margin-top: 91px;
+}
+
+.main-text {
+    width: 662px;
+    height: 394px;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.right-img {
+    display: flex;
+    align-items: center;
+    margin-left: 109px;
+}
+
+.img1 {
+    margin-top: 54%;
+    width: 366px;
+    height: 344.5px;
+}
+
+.img-desktopmod {
+    display: block;
+    height: 219px;
+    width: 232px;
+    margin-right: 132px;
+}
+
+.bottom-text {
+    display: flex;
+}
+
+.desk-image {
+    position: absolute;
+    width: 232px;
+    height: 203px;
+    left: 124px;
+    top: 670px;
+}
+
+.ellipse3 {
+    position: absolute;
+    width: 189px;
+    height: 32px;
+    left: 157px;
+    top: 857px;
+    z-index: -1;
+}
+
+.bottom-text ul {
+    display: flex;
+    gap: 95px;
+    margin-left: 132px;
+    margin-top: 144px;
+}
+
+.bottom-text ul li {
+    list-style: none;
+    width: 150px;
+    height: 89px;
+}
+
+.bottom-text ul li h3 {
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.bottom-text ul li p {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    .container {
+=======
 body{
     font-family: Robot Slab;
 }
 @media screen and (min-width: 320px) and (max-width: 991px){
    
     .container{
+>>>>>>> 672b837a20ff030bbbd4049ac1dbc8ee8a932ccf
         margin-left: 35px;
         margin-top: 36px;
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
+<<<<<<< HEAD
+    .first-section .main {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .first-section .main h1 {
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 101.38%;
+        margin: 55px 0 21px 0px;
+    }
+    .first-section .main-text {
+        width: 309px;
+        height: 217px;
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 12px;
+    }
+    .first-section .right-img {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        height: 160.29px;
+    }
+    .first-section .img1 {
+        width: 170.55px;
+        height: 160.29px;
+    }
+    .first-section .bottom-text {
+        width: 395px;
+    }
+    .first-section .img-desktopmod {
+        margin: 0;
+        width: 0;
+        height: 0;
+    }
+    .first-section .desk-image {
+        display: none;
+    }
+    .first-section .ellipse3 {
+        display: none;
+    }
+    .first-section .bottom-text ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin-left: 0;
+        gap: 0px;
+    }
+    .first-section .bottom-text ul li {
+        list-style: none;
+    }
+    .first-section .bottom-text ul li h3 {
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: bold;
+    }
+    .first-section .bottom-text ul li p {
+        font-size: 10px;
+        line-height: 13px;
+        width: 86px;
+        height: 28px;
+    }
+=======
     /* Nurlan */
     .header .pic1{
         width: 52.19px;
@@ -51,12 +203,9 @@ line-height: 150%;
 
     }
 
+>>>>>>> 672b837a20ff030bbbd4049ac1dbc8ee8a932ccf
 }
 
-@media screen and (min-width: 992px) and (max-width: 1279px){
-    
-}
+@media screen and (min-width: 992px) and (max-width: 1279px) {}
 
-@media (min-width: 1280px){
-    
-}
+@media (min-width: 1280px) {}
