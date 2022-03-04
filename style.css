@@ -114,6 +114,17 @@ line-height: 150%;
             width: 141.68px;
             height: 175.1px;
         }
+        .blue{
+            width: 225.36px;
+    height: 93.19px;
+
+
+    background: #1E4681;
+    border-radius: 2.32986px
+        }
+        .blue .text{
+            
+        }
 
     .Program-course h1{
         font-size: 26px;
