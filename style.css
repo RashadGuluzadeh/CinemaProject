@@ -122,8 +122,34 @@ line-height: 150%;
     background: #1E4681;
     border-radius: 2.32986px
         }
-        .blue .text{
+        .blue .word{
+            width: 200.64px;
+            height: 52.65px;
             
+            font-family: Roboto Slab;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 130%;
+            
+            
+            
+            color: #FFFFFF;
+        }
+        .blue .name{
+            width: 130.7px;
+height: 21.27px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 130%;
+
+
+text-align: right;
+
+color: #FFFFFF;
         }
 
     .Program-course h1{
