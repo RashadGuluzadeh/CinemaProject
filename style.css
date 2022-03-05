@@ -7,6 +7,12 @@
 body {
   font-family: Roboto;
 }
+.left-margin{
+  margin-left: 35px;
+}
+.container{
+  margin-left: 35px;
+}
 @media screen and (min-width: 320px) and (max-width: 991px) {
   .all-text {
     display: flex;
@@ -15,10 +21,8 @@ body {
   }
 
   .container {
-    margin-left: 35px;
     margin-top: 36px;
-    display: flex;
-    flex-direction: column;
+    
   }
   .header {
     display: flex;
@@ -151,6 +155,248 @@ body {
     text-align: right;
     color: #ffffff;
     padding-left: 93.07px;
+    margin-top: 18.92px;
+  }
+  .first-section .main {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .first-section .main h1 {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 101.38%;
+    margin: 55px 0 21px 0px;
+  }
+  .first-section .main-text {
+    width: 309px;
+    height: 217px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 12px;
+  }
+  .first-section .right-img {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 160.29px;
+  }
+  .first-section .img1 {
+    width: 170.55px;
+    height: 160.29px;
+  }
+  .first-section .bottom-text {
+    width: 395px;
+  }
+  .first-section .img-desktopmod {
+    margin: 0;
+    width: 0;
+    height: 0;
+  }
+  .first-section .desk-image {
+    display: none;
+  }
+  .first-section .ellipse3 {
+    display: none;
+  }
+  .first-section .bottom-text ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-left: 0;
+    gap: 0px;
+    width: 240px;
+    margin-top: 45.71px;
+  }
+  .first-section .bottom-text ul li {
+    list-style: none;
+    margin-right: 33.33px;
+  }
+  .first-section .bottom-text ul li h3 {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+  }
+  .first-section .bottom-text ul li p {
+    font-size: 10px;
+    line-height: 13px;
+    width: 86px;
+    height: 28px;
+  }
+  /* Sec Format Starts */
+
+  .sec-format .main-head h1,
+  .sec3 .main-head h1 {
+    height: 43.335418701171875px;
+    width: 310.8034973144531px;
+    font-family: Roboto Slab;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 16.66px;
+    margin-top: 76px;
+  }
+  .sec-format .list {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sec-format .list li {
+    margin-bottom: 10px;
+  }
+
+  .sec-format .list li .head {
+    height: 18.172916412353516px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    color: #1e4681;
+  }
+  .sec-format .list li .text {
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+  }
+  .sec3 {
+    margin-top: 73px;
+    margin-bottom: 80px;
+  }
+  .list-div {
+    display: flex;
+    width: 280px;
+    margin-left: 20px;
+  }
+  .sec3 .list-sec3 {
+    margin: 0;
+    padding: 0;
+  }
+  .sec3 .list-sec3 .text {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  .Program-course {
+    display: flex;
+    flex-direction: column;
+    gap: 24.16px;
+    margin-bottom: 47.16px;
+    width: 240px;
+  }
+  .Program-course  .headerrr {
+    display: flex;
+    align-items: flex-start;
+  
+  }
+  .Program-course  .headerrr h1 {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 26px;
+    font-family: Roboto Slab;
+  }
+  .Program-course .boxes-align{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 24.12px;
+  }
+  .Program-course .boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 185.92px;
+    height: 152.84px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 10px 0 rgba(0.5, 0.5, 0.5, 20%);
+  }
+  .Program-course img {
+    width: 185.92px;
+    height: 74.56px;
+  }
+  .Program-course .text {
+    padding: 0.13px 9px 7.84px;
+    border-radius: 0 0 15px 15px;
+  }
+  .Program-course h3 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 130%;
+    margin-top: 5.13px;
+    margin-bottom: 0px;
+  }
+  .Program-course div p {
+    font-size: 12px;
+    line-height: 130%;
+    width: 120px;
+    height: 32px;
+    margin: 15.15px 0 0 0;
+  }
+  .Program-course div .last-tag {
+    margin: 0.47px 0 0 0;
+  }
+  .statistics {
+    width: 100%;
+    background-color: #efefef;
+    margin: 0 !important;
+    padding: 42px 32px 53px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .statistics h1 {
+    font-size: 26px;
+    line-height: 26.36px;
+    font-weight: bold;
+    font-family: Roboto Slab;
+    width: 292px;
+    margin-bottom: 28px;
+  }
+  .statistics .text {
+    width: 308px;
+    height: 248px;
+    font-size: 10px;
+    line-height: 150%;
+    background-color: white;
+    padding: 18px 25px 13px 21px;
+    box-shadow: 0 0 10px 0 rgba(0.5, 0.5, 0.5, 20%);
+    border-radius: 15px;
+  }
+  .statistics .bottom-part {
+    display: flex;
+    margin-top: 14px;
+  }
+  .statistics .bottom-part img {
+    width: 80px;
+    height: 84px;
+  }
+  .statistics .bottom-part h3 {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: bold;
+    font-family: Roboto Slab;
+    margin-top: 18px;
+    margin-bottom: 20px;
+  }
+  .statistics .bottom-part div {
+    margin-left: 14px;
+  }
+  .statistics .bottom-part .fb-icon {
+    width: 14.91px;
+    height: 17.2px;
+    background-color: #4e70b7;
+    border-radius: 3px;
   }
 }
 
