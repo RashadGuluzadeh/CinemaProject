@@ -1,46 +1,157 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   box-sizing: border-box;
-  list-style: none;
 }
 
 body {
   font-family: Roboto Slab;
 }
 @media screen and (min-width: 320px) and (max-width: 991px) {
+ .all-text{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
   .container {
     margin-left: 35px;
     margin-top: 36px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
   }
-  .header .pic1 {
+  .header{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    }
+  .pic1{
     width: 52.19px;
-    height: 30.75px;
-  }
-  .kino {
-    width: 292.63px;
-    height: 88.53px;
+height: 30.75px;
+margin-bottom: 44.6px;
+}
+.globe{
+    width: 10.25px;
+    height: 9.79px;
+    margin-right: 3.73px;
+}
 
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 37px;
-    line-height: 101.38%;
-  }
-  .kino1 {
-    width: 212.4px;
-    height: 28.96px;
+.saat{
+    width: 10.25px;
+    height: 10.25px;
+    margin-right: 4.66px;
+}
+.calendar{
+    width: 9.32px;
+    height: 10.25px;
+    margin-right: 6.06px;
+}
+.text1{
+    width: 60.58px;
+    height: 14.91px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
-    line-height: 150%;
-  }
-  .text .pic2 {
-    width: 141.68px;
-    height: 175.1px;
-  }
+    line-height: 115%;
+    margin-right: 11.65px;
+}
+
+.text2{
+    width: 60.58px;
+height: 14.91px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 115%;
+
+}
+.text3{
+    width: 60.58px;
+height: 14.91px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 115%;
+
+}
+.online-kurs{
+    display: flex;
+    margin-bottom:8.06px;
+}
+.li{display: flex;}
+
+.kino{
+    width: 292.63px;
+height: 88.53px;
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: bold;
+font-size: 37px;
+line-height: 101.38%;
+margin-bottom: 2.22px;
+
+}
+.za{
+    width: 212.4px;
+height: 28.96px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 150%;
+}
+.pic2{
+    width: 141.66px;
+height: 165.89px;
+margin-left: 80px;
+margin-top: 10px;
+z-index: 10;
+
+}
+.ellipse{
+width: 200.68px;
+height: 19.1px;
+
+background: #FFFFFF;
+margin-left: 140px;
+margin-bottom: 38.64px;
+
+z-index: -10;
+
+}
+
+.blue-text{
+    width: 205.36px;
+height: 93.19px;
+background: #1E4681;
+border-radius: 2.32986px;
+}
+
+.blue-text .word{
+    width: 200.64px;
+height: 52.65px;
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 130%;
+color: #FFFFFF;
+padding:8.97px 0 0 12.13px;
+margin-bottom: 8.92px;
+}
+.blue-text .name{
+width: 190.7px;
+height: 21.27px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 130%;
+text-align: right;
+color: #FFFFFF;
+padding-left: 93.07px;
+}
 }
