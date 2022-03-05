@@ -3,14 +3,16 @@
   box-sizing: border-box;
   list-style: none;
 }
+
 body {
   font-family: Roboto Slab;
 }
 @media screen and (min-width: 320px) and (max-width: 991px) {
-}
-
-@media screen and (min-width: 992px) and (max-width: 1279px) {
-}
-
-@media (min-width: 1280px) {
+  .container {
+    margin-left: 35px;
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
