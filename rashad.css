@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Roboto Slab;
+  font-family: Roboto;
 }
 @media screen and (min-width: 320px) and (max-width: 991px) {
   .container {
@@ -14,11 +14,18 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+  }
+  .Program-course{
+    display: flex;
+    flex-direction: column;
+    gap: 24.16px;
   }
   .Program-course h1 {
     font-size: 26px;
     font-weight: bold;
     line-height: 26px;
+    font-family: Roboto Slab;
   }
   .Program-course div {
     display: flex;
@@ -26,29 +33,33 @@ body {
     justify-content: center;
     width: 185.92px;
     height: 152.84px;
-    border-radius: 0 0 15px 15px;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 10px 0 rgba(0.5, 0.5, 0.5, 20%);
+
   }
   .Program-course img {
     width: 185.92px;
     height: 74.56px;
   }
   .Program-course .text {
-    padding: 5.13px 9px 7.84px;
-    border-radius: 15px 15px 15px 15px;
+    padding: 0.13px 9px 7.84px;
   }
   .Program-course h3 {
     font-weight: bold;
     font-size: 14px;
     line-height: 130%;
-    margin-bottom: 15.15px;
     margin-top: 5.13px;
+    margin-bottom: 0px;
+  }
+  .Program-course p:last-child{
+    margin-top: 0.47px !important;
   }
   .Program-course p {
     font-size: 12px;
     line-height: 130%;
-    width: 106px;
+    width: 120px;
     height: 32px;
-    margin: 0;
+    margin: 0 0 0 0;
+    margin-top: 15.15px;
   }
 }
