@@ -15,11 +15,11 @@ body {
 }
 @media screen and (min-width: 320px) and (max-width: 991px) {
   .all-text {
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     margin-top: 36px;
-    align-items: center;
-  }
+    }
   .header {
     display: flex;
     justify-content: flex-start;
@@ -165,7 +165,8 @@ body {
     margin: 55px 0 21px 0px;
   }
   .first-section .main-text {
-    width: 309px;
+    min-width: 320px;
+    max-width: 662px;
     height: 217px;
     font-size: 12px;
     line-height: 18px;
@@ -394,14 +395,14 @@ body {
     border-radius: 3px;
   }
   .end-blue {
-    width: 376px;
+
     height: 363.46px;
     left: -23px;
     background: #9dc9c8;
   }
   .end-blue-intro {
-    padding-top: 40px;
-    padding-left: 35px;
+    margin-top: 40px;
+    margin-left: 35px;
     width: 224px;
     height: 63px;
     font-family: Roboto Slab;
@@ -414,8 +415,8 @@ body {
   .text-small {
     width: 79.22px;
     height: 14.91px;
-    padding-top: 23px;
-    padding-left: 34px;
+    margin-top: 23px;
+    margin-left: 34px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -426,8 +427,8 @@ body {
   .text-rubl {
     width: 169px;
     height: 48px;
-    padding-top: 10px;
-    padding-left: 35px;
+    margin-top: 10px;
+    margin-left: 35px;
     margin-bottom: 29px;
     font-family: Roboto;
     font-style: normal;
@@ -440,24 +441,24 @@ body {
     margin-right: 31px;
     width: 137px;
     height: 14.91px;
-    padding-left: 35px;
+    margin-left: 35px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 101.38%;
     margin-bottom: 5px;
     color: #000000;
   }
   .button-left2 {
-    width: 138px;
+    width: 140px;
     height: 47px;
-    padding-left: 35px;
+    margin-left: 35px;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 101.38%;
 
     color: #000000;
@@ -470,7 +471,7 @@ body {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 101.38%;
     color: #000000;
   }
@@ -480,7 +481,7 @@ body {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 101.38%;
     color: #000000;
   }
@@ -490,14 +491,13 @@ body {
   .end-black {
     box-sizing: border-box;
     padding-left: 35px;
-    width: 376px;
     height: 251px;
     background: #000000;
   }
   .image1 {
     margin-bottom: 14px;
     width: 53.59px;
-    height: 31.69px;
+    margin-top: 23.3px;
   }
   .images1 {
     margin-right: 9px;
@@ -530,13 +530,19 @@ body {
     font-style: normal;
     font-weight: normal;
     margin-bottom: 49px;
+    margin-top: 49.99px;
   }
   .about1 {
     display: flex;
   }
+  div.about-images1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .about-images1 {
-    width: 12.58px;
-    height: 12.58px;
+    width: 22px;
+    height: 22px;
     padding-right: 10px;
   }
 
@@ -545,21 +551,32 @@ body {
     height: 18.64px;
     font-size: 12px;
     line-height: 101.38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .about2 {
     display: flex;
   }
   .about-image2 {
-    width: 12.58px;
-    height: 8.39px;
+    width: 24px;
+    height: 24px;
     padding-right: 10px;
+  }
+  div.about-images2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .about-gmail {
     width: 125.35px;
     height: 18.64px;
     font-size: 12px;
     line-height: 101.38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .end {
