@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: Roboto;
+}
+@media screen and (min-width: 320px) and (max-width: 991px) {
+  .container {
+    margin-left: 35px;
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Program-course{
+    display: flex;
+    flex-direction: column;
+    gap: 24.16px;
+  }
+  .Program-course h1 {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 26px;
+    font-family: Roboto Slab;
+  }
+  .Program-course div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 185.92px;
+    height: 152.84px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 10px 0 rgba(0.5, 0.5, 0.5, 20%);
+
+  }
+  .Program-course img {
+    width: 185.92px;
+    height: 74.56px;
+  }
+  .Program-course .text {
+    padding: 0.13px 9px 7.84px;
+  }
+  .Program-course h3 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 130%;
+    margin-top: 5.13px;
+    margin-bottom: 0px;
+  }
+  .Program-course p:last-child{
+    margin-top: 0.47px !important;
+  }
+  .Program-course p {
+    font-size: 12px;
+    line-height: 130%;
+    width: 120px;
+    height: 32px;
+    margin: 0 0 0 0;
+    margin-top: 15.15px;
+  }
+}
