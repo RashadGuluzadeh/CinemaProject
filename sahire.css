@@ -1,18 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   box-sizing: border-box;
-  list-style: none;
 }
 body {
   font-family: Roboto Slab;
 }
 @media screen and (min-width: 320px) and (max-width: 991px) {
   .container {
+    width: 100%;
     margin-left: 35px;
     margin-top: 36px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+
     align-items: center;
   }
   .first-section .main {
@@ -64,9 +62,11 @@ body {
     padding: 0;
     margin-left: 0;
     gap: 0px;
+    width: 240px;
   }
   .first-section .bottom-text ul li {
     list-style: none;
+    margin-right: 33.33px;
   }
   .first-section .bottom-text ul li h3 {
     font-size: 12px;
@@ -78,5 +78,68 @@ body {
     line-height: 13px;
     width: 86px;
     height: 28px;
+  }
+  /* Sec Format Starts */
+
+  .sec-format .main-head h1,
+  .sec3 .main-head h1 {
+    height: 43.335418701171875px;
+    width: 310.8034973144531px;
+    font-family: Roboto Slab;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 16.66px;
+  }
+  .sec-format .list {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sec-format .list li {
+    margin-bottom: 10px;
+  }
+
+  .sec-format .list li .head {
+    height: 18.172916412353516px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    color: #1e4681;
+  }
+  .sec-format .list li .text {
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+  }
+  .sec3{
+    margin-top: 73px;
+    margin-bottom: 80px;
+  }
+  .list-div{
+    display: flex;
+    width: 280px;
+    margin-left: 20px;
+
+  }
+  .sec3 .list-sec3 {
+    margin: 0;
+    padding: 0;
+  }
+  .sec3 .list-sec3 .text{
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
   }
 }
