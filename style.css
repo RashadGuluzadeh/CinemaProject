@@ -9,12 +9,13 @@
 body {
   font-family: Roboto;
 }
+.container {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding: 0 120px;
+}
 @media screen and (min-width: 1280px){
-  .container {
-    margin: 0 auto;
-    max-width: 1600px;
-    padding: 0 120px;
-  }
+
   .container header {
     margin-top: 20px;
     display: flex;
@@ -453,8 +454,6 @@ body {
 @media screen and (min-width: 992px) and (max-width: 1279px) {
   .container {
     padding: 0 70px;
-    margin: 0 auto;
-    max-width: 1280px;
   }
   .container header {
     row-gap: 58px;
