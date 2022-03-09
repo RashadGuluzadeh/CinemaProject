@@ -12,10 +12,11 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1600px;
-  padding: 0 120px;
 }
 @media screen and (min-width: 1280px){
-
+  .container{
+    padding: 0 120px;
+  }
   .container header {
     margin-top: 20px;
     display: flex;
