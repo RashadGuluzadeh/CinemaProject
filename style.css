@@ -13,7 +13,7 @@ body {
   margin: 0 auto;
   max-width: 1600px;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1279px) {
   .container {
     padding: 0 120px;
   }
@@ -452,7 +452,7 @@ body {
     color: #fff;
   }
 }
-@media screen and (min-width: 992px) and (max-width: 1279px) {
+@media screen and (min-width: 991px) and (max-width: 1279px) {
   /* ----------------Nurlan------------------- */
 
   .container {
