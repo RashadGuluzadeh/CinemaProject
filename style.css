@@ -500,9 +500,7 @@ body {
     display: flex;
     align-items: flex-start;
   }
-  .hero .top-content .hero-text {
-    width: 100%;
-  }
+  
   .hero .top-content .hero-text h1 {
     line-height: 47px;
     font-family: "Roboto Slab";
@@ -533,14 +531,14 @@ body {
   }
   .hero .hero-image img:first-child {
       position: absolute;
-      left: -430px;
+      left: 70px;
       width: 176.07px;
       height: 206.18px;}
 
   .hero .hero-image img:last-child {
     z-index: -1;
     position: absolute;
-    left: -410px;
+    left: 90px;
     bottom: -217px;
     width: 158.69px;
     height: 23.75px;
