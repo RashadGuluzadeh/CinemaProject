@@ -585,7 +585,144 @@ body {
       margin-left: 108px;
   }
   /* ----------------------------------------------- */
+  .about {
+    margin-top: 100.41px;
+    display: flex;
+    flex-direction: column;
+  }
+  .about .top-content {
+    display: flex;
+    flex-direction: column;
+    column-gap: 115px;
+  }
+  .about .top-content .about-content {
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+    align-items: center;
+    column-gap: 115px;
+    
+  }
+  .about .top-content h1 {
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 101.38%;
+    /* or 32px */
+    color: #000000;
+  }
+  .about .top-content .about-content p {
+    max-width: 383.41px;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+    color: #000000;
+  }
+  .about .about-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .about .about-image img:first-child {
+    display: block;
+    width: 181.86px;
 
+  }
+
+  .about .about-image img:last-child {
+    position: absolute;
+    bottom: -15px;
+    z-index: -1;
+    width: 211.98px;
+  }
+  .about .bottom-content {
+    display: flex;
+    margin-top: 50px;
+    position: relative;
+    column-gap: 76.45px;
+  }
+  .about .bottom-image img:first-child {
+    width: 134.37px;
+  }
+  .about .bottom-image img:last-child {
+    position: absolute;
+    left: 20px;
+    bottom: -6px;
+    z-index: -1;
+    width: 109.46px;
+    height: 24.53px;
+  }
+  .about .bottom-content .bottom-text {
+    display: flex;
+    align-items: center;
+    column-gap: 55.23px;
+  }
+  .about .bottom-content .bottom-text span {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 130%;
+    /* or 19px */
+  }
+  .about .bottom-content .bottom-text p {
+    padding-top: 10px;
+    max-width: 108px;
+    font-size: 11px;
+    line-height: 130%;
+    /* or 14px */
+  }
+  .format {
+    margin-top: 93.83px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 51.55px;
+  }
+  .format h1 {
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    font-size: 32px;
+    line-height: 101.38%;
+  }
+  .format .format-content {
+    display: flex;
+    column-gap: 50.87px;
+  }
+  .format .format-content span {
+    color: #1e4681;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 130%;
+  }
+  .format .format-content p {
+    padding-top: 13px;
+    max-width: 158.9px;
+    font-size: 11px;
+    line-height: 130%;
+  }
+  .whatweknow {
+    margin-top: 144px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    margin-bottom: 143px;
+  }
+  .whatweknow h1 {
+    font-weight: bold;
+    font-family: "Roboto Slab";
+    font-size: 32px;
+    line-height: 101.38%;
+  }
+  .whatweknow ul {
+    max-width: 383.41px;
+    padding-left: 20px;
+  }
+  .whatweknow ul li {
+    list-style: outside;
+    font-size: 14px;
+    line-height: 150%;
+  }
   
   /* --------------------Rashad----------------------------- */
   .course{
