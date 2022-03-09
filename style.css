@@ -9,12 +9,13 @@
 body {
   font-family: Roboto;
 }
+.container {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding: 0 120px;
+}
 @media screen and (min-width: 1280px){
-  .container {
-    margin: 0 auto;
-    max-width: 1600px;
-    padding: 0 120px;
-  }
+
   .container header {
     margin-top: 20px;
     display: flex;
@@ -222,7 +223,7 @@ body {
     position: relative;
     margin: 0 auto;
     padding: 0 84px;
-    max-width: 1440px;
+    max-width: 1600px;
   }
   .course h1{
     font-weight: bold;
@@ -236,7 +237,7 @@ body {
     flex-wrap: wrap;
     column-gap: 37px;
     row-gap: 41px;
-    width: 100%;
+    width: 115%;
   }
   .course .boxes{
     box-shadow: 0 0 10px 0 rgb(1 1 1 / 20%);
@@ -451,25 +452,282 @@ body {
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1279px) {
+  
+  /* ----------------Nurlan------------------- */
+  
   .container {
+    margin: 0 auto;
     padding: 0 70px;
+  
   }
   .container header {
-    row-gap: 58px;
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   row-gap: 58px;
   }
   .logo {
     width: 64px;
     height: 38px;
+    object-fit: contain;
+    margin-top: 22px;
   }
+  header .menu {
+      display: flex;
+      align-items: center;
+      column-gap: 25px;
+  }
+  
   header .menu a {
     font-size: 12px;
     line-height: 14px;
+    width: 75.29px;
+    height: 18.53px;
+    font-style: normal;
+    font-weight: normal;
   }
   header .menu a img {
     width: 12px;
     height: 12px;
   }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    row-gap: 68px;
+    margin-top: 7.53px;
+  }
+  .hero .top-content {
+    display: flex;
+    align-items: flex-start;
+  }
+  .hero .top-content .hero-text {
+    width: 100%;
+  }
+  .hero .top-content .hero-text h1 {
+    line-height: 47px;
+    font-family: "Roboto Slab";
+    padding-top: 8px;
+
+    width: 363.72px;
+    height: 110.04px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    margin-bottom: 4px;
+    
+  }
+  .hero .top-content .hero-text p {
+      width: 264px;
+      height: 36px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 18px;
+  }
+  .hero .hero-image {
+    position: relative;
+    
+    
+  }
+  .hero .hero-image img:first-child {
+      position: absolute;
+      left: -430px;
+      width: 176.07px;
+      height: 206.18px;}
+
+  .hero .hero-image img:last-child {
+    z-index: -1;
+    position: absolute;
+    left: -410px;
+    bottom: -217px;
+    width: 158.69px;
+    height: 23.75px;
+  }
+  .hero .bottom-content {
+    display: flex;
+
+    
+  }
+  .hero .bottom-content div {
+    width: 280.11px;
+    height: 115.83px;
+    background-color: #1e4681;
+    color: #fff;
+    border-radius: 3px;
+    margin-top: 39.17px;
+    margin-left: 154px;
+  }
+  .hero .bottom-content div p:first-child {
+    font-family: "Roboto Slab";
+    width: 250.38px;
+   height: 65.45px;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 130%;
+   padding-top: 11px;
+   padding-left: 15px;
+   margin-bottom: 10.6px;
+
+  }
+  .hero .bottom-content div p:last-child {
+      width: 162.46px;
+      height: 26.43px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 130%;
+      text-align: right;
+      padding-top: 11px;
+      margin-left: 108px;
+  }
+  /* ----------------------------------------------- */
+
   
+  /* --------------------Rashad----------------------------- */
+  .course{
+    margin-top: 130px !important;
+    display: flex;
+    flex-direction: column;
+    row-gap: 77px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 50px;
+    max-width: 1244px;
+  }
+  .course h1{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 101.38%;
+    font-family: "Roboto Slab";
+    margin-left: 20px;
+  }
+  .course .boxes-direction{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 21px;
+    row-gap: 23px;
+    width: 85%;
+  }
+  .course .boxes{
+    box-shadow: 0 0 10px 0 rgb(1 1 1 / 20%);
+    border-radius :20px;
+  }
+  .course .boxes img{
+    width: 231.09px;
+    height: 92.67px;
+  }
+  .course .boxes div{
+    padding-left: 11px;
+    padding-top: 6.37px;
+    padding-bottom: 13.32px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .course .boxes span{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22.1px;
+    max-width: 211.4px;
+    display: block;
+    padding-bottom: 22.6px ;
+  }
+  .course .boxes p{
+    font-size: 14px;
+    line-height: 130%;
+    max-width: 160px;
+  }
+  .course .last-box{
+    box-shadow: 0 0 10px 0 rgb(1 1 1 / 20%);
+    border-radius :20px;
+  } 
+  .course .last-box img{
+    width: 231.09px;
+    height: 92.67px;
+  }
+  .course .last-box div{
+    padding-left: 11px;
+    padding-top: 6.37px;
+    padding-bottom: 13.32px;
+    display: flex;
+    flex-direction: column;
+  }
+  .course .last-box span{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22.1px;
+    max-width: 211.4px;
+    display: block;
+    padding-bottom: 6.6px ;
+  }
+  .course .last-box p{
+    font-size: 14px;
+    line-height: 130%;
+    max-width: 160px;
+  }
+  .static{
+    background-color: #EFEFEF;
+    margin: 0 auto;
+    padding-top: 52.7px;
+    padding-left: 70.6px;
+    padding-bottom: 64.29px;
+    margin-top: 52.6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 1280px;
+  }
+  .static h1{
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 101.38%;
+    margin-bottom: 45px;
+  }
+  .static .static-content{
+    background-color: #fff;
+    padding: 23px 26px 16.8px;
+    max-width: 460px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 rgb(1 1 1 / 20%);
+    display: flex;
+    flex-direction: column;
+    row-gap: 19px;
+  }
+  .static .static-content p{
+    font-size: 12px;
+    line-height: 150%;
+    max-width: 405px;
+  }
+  .static .bottom{
+    display: flex;
+    column-gap: 17px;
+    align-items: center;
+  }
+  .static .bottom img{
+    width: 110.04px;
+    height: 97.88px;
+  }
+  .static .bottom div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+  }
+  .static .bottom div h1{
+    font-size: 17px;
+    line-height: 101.38%;
+    font-family: "Roboto Slab";
+    margin: 0;
+  }
+  .static .bottom div img{
+    width: 18.53px;
+    height: 17.95px;
+  }
+  /* ---------------------------------------------------------------------- */
 }
 @media screen and (max-width: 991px) {
   .container {
