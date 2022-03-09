@@ -859,8 +859,150 @@ body {
     height: 17.95px;
   }
   
+
   /* ---------------------------------------------------------------------- */
+
+   /* ---------------------------------- ilkin --------*/
+
+   .start {
+    background-color: #90d1d0;
+    width: 834px;
+    height: 451.75px;
+    padding-top: 103px;
+    padding-left: 70.66px;
+    padding-bottom: 107px;
+    padding-right: 237px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 1600px;
+  }
+  .start h1 {
+    font-family: "Roboto Slab";
+    font-size: 32px;
+    font-weight: 700;
+    width: 525.88px;
+    height: 38.23px;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 31px;
+  }
+  .start div {
+    margin-bottom: 82px;
+  }
+  .start div p {
+    font-size: 14px;
+    line-height: 25px;
+    width: 98.46px;
+    height: 18.53px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .start div span {
+    letter-spacing: 0em;
+    text-align: left;
+    width: 278.58px;
+    height: 104.83px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 101.38%;
+  }
+  .start ul {
+    display: flex;
+    column-gap: 70px;
+  }
+  .start ul li span {
+    font-size: 14px;
+    width: 170.28px;
+    height: 18.53px;
+    padding-bottom: 5px;
+    line-height: 101.38%;
+
+    letter-spacing: 0em;
+    text-align: left;
+    display: block;
+  }
+  .start ul li p {
+    font-size: 10px;
+    width: 170.28px;
+    height: 40.54px;
+    font-weight: normal;
+    line-height: 101.38%;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 294px;
+  }
+  footer {
+    background-color: #000;
+    width: 834px;
+    height: 225.88px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 147px;
+    position: relative;
+    max-width: 1600px;
+  }
+  footer .left-footer {
+    display: flex;
+    padding-top: 29px;
+    padding-left: 70.66px;
+    flex-direction: column;
+  }
+  footer .left-footer img {
+    width: 66.6px;
+    height: 39.38px;
+  }
+  footer .left-footer ul {
+    display: flex;
+  }
+  footer .left-footer ul li a img {
+    width: 19px;
+    height: 19px;
+    row-gap: 25px;
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+  footer .right-footer {
+    display: flex;
+    color: #fff;
+    position: absolute;
+    right: 107px;
+    top: 34px;
+  }
+  footer .right-footer ul {
+    display: flex;
+    row-gap: 13px;
+    flex-direction: column;
+  }
+  footer .right-footer ul li {
+    display: flex;
+    column-gap: 13px;
+    font-size: 14px;
+  }
+  footer .right-footer ul li img {
+    width: 15px;
+    height: 15px;
+  }
+  footer .bottom-footer {
+    width: 230px;
+    height: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 101.38%;
+    color: #fff;
+  padding-left: 70.66px;
+  padding-top: 85px;
+
+  }
 }
+
+
+
 @media screen and (max-width: 991px) {
   /* ----------------Nurlan------------------- */
   .container {
