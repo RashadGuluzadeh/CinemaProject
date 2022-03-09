@@ -12,9 +12,15 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1600px;
+  /* display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column; */
 }
 @media screen and (min-width: 1279px) {
   .container {
+    margin: 0 auto;
+    max-width: 1600px;
     padding: 0 120px;
   }
   .container header {
@@ -22,6 +28,7 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 100px;
+    align-items: flex-start !important;
   }
   .logo {
     width: 112px;
@@ -51,9 +58,6 @@ body {
   .hero .top-content {
     display: flex;
     align-items: flex-start;
-  }
-  .hero .top-content .hero-text {
-    width: 100%;
   }
   .hero .top-content .hero-text h1 {
     font-size: 80px;
@@ -458,6 +462,7 @@ body {
   .container {
     margin: 0 auto;
     padding: 0 70px;
+    max-width: 1280px;
   }
   .container header {
     margin-top: 20px;
@@ -853,6 +858,7 @@ body {
     width: 18.53px;
     height: 17.95px;
   }
+  
 
   /* ---------------------------------------------------------------------- */
 
