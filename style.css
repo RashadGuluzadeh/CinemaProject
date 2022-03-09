@@ -866,6 +866,7 @@ body {
 
    .start {
     background-color: #90d1d0;
+    width: 834px;
     height: 451.75px;
     padding-top: 103px;
     padding-left: 70.66px;
@@ -936,9 +937,11 @@ body {
   }
   footer {
     background-color: #000;
+    width: 834px;
     height: 225.88px;
     display: flex;
     flex-direction: column;
+    row-gap: 147px;
     position: relative;
     max-width: 1600px;
   }
