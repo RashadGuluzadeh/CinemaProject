@@ -41,6 +41,7 @@ body {
       height: 18.53px;
       font-style: normal;
       font-weight: normal;
+      color: black;
     }
     header .menu a img {
       width: 12px;
@@ -162,6 +163,7 @@ body {
       line-height: 12px;
       margin-right: 11.65px;
       margin-bottom: 8.06px;
+      color: black;
     }
     header .menu a img {
       width: 10px;
