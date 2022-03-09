@@ -13,14 +13,10 @@ body {
   margin: 0 auto;
   max-width: 1600px;
 }
-<<<<<<< HEAD
-@media screen and (min-width: 1280px) {
-=======
 @media screen and (min-width: 1280px){
   .container{
     padding: 0 120px;
   }
->>>>>>> 05d306ce906c8a703c24f0ea519b425f1047c160
   .container header {
     margin-top: 20px;
     display: flex;
@@ -220,7 +216,7 @@ body {
     font-size: 24px;
     line-height: 36px;
   }
-  .course {
+  .course{
     margin-top: 232px !important;
     display: flex;
     flex-direction: column;
@@ -230,70 +226,71 @@ body {
     padding: 0 84px;
     max-width: 1600px;
   }
-  .course h1 {
+  .course h1{
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
     font-family: "Roboto Slab";
     margin-left: 37px;
   }
-  .course .boxes-direction {
+  .course .boxes-direction{
     display: flex;
     flex-wrap: wrap;
     column-gap: 37px;
     row-gap: 41px;
     width: 115%;
   }
-  .course .boxes {
+  .course .boxes{
     box-shadow: 0 0 10px 0 rgb(1 1 1 / 20%);
-    border-radius: 30px;
+    border-radius :30px;
   }
-  .course .boxes div {
+  .course .boxes div{
     padding-left: 20px;
     padding-top: 11px;
     padding-bottom: 23px;
     display: flex;
     flex-direction: column;
+    
   }
-  .course .boxes span {
+  .course .boxes span{
     font-size: 30px;
     font-weight: 700;
     line-height: 39px;
     max-width: 365px;
     display: block;
-    padding-bottom: 32px;
+    padding-bottom: 32px ;
   }
-  .course .boxes p {
+  .course .boxes p{
     font-size: 25px;
     line-height: 130%;
     max-width: 240px;
   }
-  .course .last-box {
+  .course .last-box{
     box-shadow: 0 0 10px 0 rgb(1 1 1 / 20%);
-    border-radius: 30px;
-  }
-  .course .last-box div {
+    border-radius :30px;
+  } 
+  .course .last-box div{
     padding-left: 20px;
     padding-top: 11px;
     padding-bottom: 23px;
     display: flex;
     flex-direction: column;
   }
-  .course .last-box span {
+  .course .last-box span{
     font-size: 30px;
     font-weight: 700;
     line-height: 29px;
     max-width: 365px;
     display: block;
-    padding-bottom: 10px;
+    padding-bottom: 10px ;
   }
-  .course .last-box p {
+  .course .last-box p{
     line-height: 130%;
-    font-size: 25px;
+    font-size: 25px;  
     max-width: 240px;
   }
-  .static {
-    background-color: #efefef;
+  .static{
+    background-color: #EFEFEF;
     margin: 0 auto;
     padding-top: 91px;
     padding-left: 122px;
@@ -304,14 +301,14 @@ body {
     justify-content: flex-start;
     max-width: 1600px;
   }
-  .static h1 {
+  .static h1{
     font-family: "Roboto Slab";
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
     margin-bottom: 67px;
   }
-  .static .static-content {
+  .static .static-content{
     background-color: #fff;
     padding: 40px 45px 29px;
     max-width: 791px;
@@ -321,33 +318,32 @@ body {
     flex-direction: column;
     row-gap: 37px;
   }
-  .static .static-content p {
+  .static .static-content p{
     font-size: 20px;
     line-height: 150%;
     max-width: 700px;
   }
-  .static .bottom {
+  .static .bottom{
     display: flex;
     column-gap: 30px;
     align-items: center;
-  }
-  .static .bottom div {
+  }.static .bottom div{
     display: flex;
     flex-direction: column;
     row-gap: 26px;
   }
-  .static .bottom div h1 {
+  .static .bottom div h1{
     font-size: 30px;
     line-height: 101.38%;
     font-family: "Roboto Slab";
     margin: 0;
   }
-  .static .bottom div img {
+  .static .bottom div img{
     width: 32px;
     height: 31px;
   }
-  .start {
-    background-color: #9dc9c8;
+  .start{
+    background-color: #9DC9C8;
     margin: 0 auto;
     padding-top: 179px;
     padding-left: 122px;
@@ -357,7 +353,7 @@ body {
     justify-content: flex-start;
     max-width: 1600px;
   }
-  .start h1 {
+  .start h1{
     font-family: "Roboto Slab";
     font-size: 55px;
     font-weight: 700;
@@ -366,27 +362,27 @@ body {
     text-align: left;
     margin-bottom: 54px;
   }
-  .start div {
+  .start div{
     margin-bottom: 82px;
   }
-  .start div p {
+  .start div p{
     font-size: 25px;
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
   }
-  .start div span {
+  .start div span{
     font-size: 80px;
     font-weight: 400;
     line-height: 81px;
     letter-spacing: 0em;
     text-align: left;
   }
-  .start ul {
+  .start ul{
     display: flex;
     column-gap: 70px;
   }
-  .start ul li span {
+  .start ul li span{
     font-size: 25px;
     line-height: 25px;
     letter-spacing: 0em;
@@ -394,7 +390,7 @@ body {
     margin-bottom: 20px;
     display: block;
   }
-  .start ul li p {
+  .start ul li p{
     font-size: 18px;
     font-weight: 400;
     line-height: 18px;
@@ -402,7 +398,7 @@ body {
     text-align: left;
     max-width: 294px;
   }
-  footer {
+  footer{
     background-color: #000;
     margin: 0 auto;
     padding-top: 50px;
@@ -414,24 +410,24 @@ body {
     position: relative;
     max-width: 1600px;
   }
-  footer .left-footer {
+  footer .left-footer{
     display: flex;
     flex-direction: column;
     row-gap: 30px;
   }
-  footer .left-footer img {
+  footer .left-footer img{
     width: 115px;
     height: 68px;
   }
-  footer .left-footer ul {
+  footer .left-footer ul{
     display: flex;
     column-gap: 18px;
   }
-  footer .left-footer ul li a img {
+  footer .left-footer ul li a img{
     width: 33px;
     height: 33px;
   }
-  footer .right-footer {
+  footer .right-footer{
     display: flex;
     row-gap: 25px;
     color: #fff;
@@ -439,35 +435,37 @@ body {
     right: 146px;
     top: 50px;
   }
-  footer .right-footer ul {
+  footer .right-footer ul{
     display: flex;
     row-gap: 25px;
     flex-direction: column;
   }
-  footer .right-footer ul li {
+  footer .right-footer ul li{
     display: flex;
     column-gap: 22px;
   }
-  footer .right-footer ul li img {
+  footer .right-footer ul li img{
     width: 27px;
     height: 27px;
   }
-  footer .bottom-footer {
+  footer .bottom-footer{
     color: #fff;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1279px) {
+  
   /* ----------------Nurlan------------------- */
-
+  
   .container {
     margin: 0 auto;
     padding: 0 70px;
+  
   }
   .container header {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 58px;
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   row-gap: 58px;
   }
   .logo {
     width: 64px;
@@ -476,11 +474,11 @@ body {
     margin-top: 22px;
   }
   header .menu {
-    display: flex;
-    align-items: center;
-    column-gap: 25px;
+      display: flex;
+      align-items: center;
+      column-gap: 25px;
   }
-
+  
   header .menu a {
     font-size: 12px;
     line-height: 14px;
@@ -503,7 +501,7 @@ body {
     display: flex;
     align-items: flex-start;
   }
-
+  
   .hero .top-content .hero-text h1 {
     line-height: 47px;
     font-family: "Roboto Slab";
@@ -516,25 +514,27 @@ body {
     font-weight: bold;
     font-size: 46px;
     margin-bottom: 4px;
+    
   }
   .hero .top-content .hero-text p {
-    width: 264px;
-    height: 36px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
+      width: 264px;
+      height: 36px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 18px;
   }
   .hero .hero-image {
     position: relative;
+    
+    
   }
   .hero .hero-image img:first-child {
-    position: absolute;
-    left: 70px;
-    width: 176.07px;
-    height: 206.18px;
-  }
+      position: absolute;
+      left: 70px;
+      width: 176.07px;
+      height: 206.18px;}
 
   .hero .hero-image img:last-child {
     z-index: -1;
@@ -546,6 +546,8 @@ body {
   }
   .hero .bottom-content {
     display: flex;
+
+    
   }
   .hero .bottom-content div {
     width: 280.11px;
@@ -559,26 +561,27 @@ body {
   .hero .bottom-content div p:first-child {
     font-family: "Roboto Slab";
     width: 250.38px;
-    height: 65.45px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 130%;
-    padding-top: 11px;
-    padding-left: 15px;
-    margin-bottom: 10.6px;
+   height: 65.45px;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 130%;
+   padding-top: 11px;
+   padding-left: 15px;
+   margin-bottom: 10.6px;
+
   }
   .hero .bottom-content div p:last-child {
-    width: 162.46px;
-    height: 26.43px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 130%;
-    text-align: right;
-    padding-top: 11px;
-    margin-left: 108px;
+      width: 162.46px;
+      height: 26.43px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 130%;
+      text-align: right;
+      padding-top: 11px;
+      margin-left: 108px;
   }
   /* ----------------------------------------------- */
   .about {
@@ -597,6 +600,7 @@ body {
     margin-top: 25px;
     align-items: center;
     column-gap: 115px;
+    
   }
   .about .top-content h1 {
     font-family: "Roboto Slab";
@@ -622,6 +626,7 @@ body {
   .about .about-image img:first-child {
     display: block;
     width: 181.86px;
+
   }
 
   .about .about-image img:last-child {
@@ -717,9 +722,9 @@ body {
     font-size: 14px;
     line-height: 150%;
   }
-
+  
   /* --------------------Rashad----------------------------- */
-  .course {
+  .course{
     margin-top: 130px !important;
     display: flex;
     flex-direction: column;
@@ -729,78 +734,79 @@ body {
     padding: 0 50px;
     max-width: 1244px;
   }
-  .course h1 {
+  .course h1{
     font-weight: bold;
     font-size: 32px;
     line-height: 101.38%;
     font-family: "Roboto Slab";
     margin-left: 20px;
   }
-  .course .boxes-direction {
+  .course .boxes-direction{
     display: flex;
     flex-wrap: wrap;
     column-gap: 21px;
     row-gap: 23px;
     width: 85%;
   }
-  .course .boxes {
+  .course .boxes{
     box-shadow: 0 0 10px 0 rgb(1 1 1 / 20%);
-    border-radius: 20px;
+    border-radius :20px;
   }
-  .course .boxes img {
+  .course .boxes img{
     width: 231.09px;
     height: 92.67px;
   }
-  .course .boxes div {
+  .course .boxes div{
+    padding-left: 11px;
+    padding-top: 6.37px;
+    padding-bottom: 13.32px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .course .boxes span{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22.1px;
+    max-width: 211.4px;
+    display: block;
+    padding-bottom: 22.6px ;
+  }
+  .course .boxes p{
+    font-size: 14px;
+    line-height: 130%;
+    max-width: 160px;
+  }
+  .course .last-box{
+    box-shadow: 0 0 10px 0 rgb(1 1 1 / 20%);
+    border-radius :20px;
+  } 
+  .course .last-box img{
+    width: 231.09px;
+    height: 92.67px;
+  }
+  .course .last-box div{
     padding-left: 11px;
     padding-top: 6.37px;
     padding-bottom: 13.32px;
     display: flex;
     flex-direction: column;
   }
-  .course .boxes span {
+  .course .last-box span{
     font-size: 17px;
     font-weight: 700;
     line-height: 22.1px;
     max-width: 211.4px;
     display: block;
-    padding-bottom: 22.6px;
+    padding-bottom: 6.6px ;
   }
-  .course .boxes p {
+  .course .last-box p{
     font-size: 14px;
     line-height: 130%;
     max-width: 160px;
   }
-  .course .last-box {
-    box-shadow: 0 0 10px 0 rgb(1 1 1 / 20%);
-    border-radius: 20px;
-  }
-  .course .last-box img {
-    width: 231.09px;
-    height: 92.67px;
-  }
-  .course .last-box div {
-    padding-left: 11px;
-    padding-top: 6.37px;
-    padding-bottom: 13.32px;
-    display: flex;
-    flex-direction: column;
-  }
-  .course .last-box span {
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 22.1px;
-    max-width: 211.4px;
-    display: block;
-    padding-bottom: 6.6px;
-  }
-  .course .last-box p {
-    font-size: 14px;
-    line-height: 130%;
-    max-width: 160px;
-  }
-  .static {
-    background-color: #efefef;
+  .static{
+    background-color: #EFEFEF;
     margin: 0 auto;
     padding-top: 52.7px;
     padding-left: 70.6px;
@@ -811,14 +817,14 @@ body {
     justify-content: flex-start;
     max-width: 1280px;
   }
-  .static h1 {
+  .static h1{
     font-family: "Roboto Slab";
     font-weight: bold;
     font-size: 32px;
     line-height: 101.38%;
     margin-bottom: 45px;
   }
-  .static .static-content {
+  .static .static-content{
     background-color: #fff;
     padding: 23px 26px 16.8px;
     max-width: 460px;
@@ -828,32 +834,32 @@ body {
     flex-direction: column;
     row-gap: 19px;
   }
-  .static .static-content p {
+  .static .static-content p{
     font-size: 12px;
     line-height: 150%;
     max-width: 405px;
   }
-  .static .bottom {
+  .static .bottom{
     display: flex;
     column-gap: 17px;
     align-items: center;
   }
-  .static .bottom img {
+  .static .bottom img{
     width: 110.04px;
     height: 97.88px;
   }
-  .static .bottom div {
+  .static .bottom div{
     display: flex;
     flex-direction: column;
     row-gap: 17px;
   }
-  .static .bottom div h1 {
+  .static .bottom div h1{
     font-size: 17px;
     line-height: 101.38%;
     font-family: "Roboto Slab";
     margin: 0;
   }
-  .static .bottom div img {
+  .static .bottom div img{
     width: 18.53px;
     height: 17.95px;
   }
@@ -1005,6 +1011,7 @@ header .menu{
     flex-direction: column;
     /* align-items: center; */
     row-gap: 15px;
+    
   }
   .about .top-content h1 {
     font-family: "Roboto Slab";
@@ -1047,7 +1054,7 @@ header .menu{
     display: flex;
     align-items: center;
     column-gap: 33.33px;
-    width: 208px;
+    width:208px;
     flex-wrap: wrap;
     row-gap: 10px;
   }
@@ -1113,130 +1120,6 @@ header .menu{
     font-size: 12px;
     line-height: 150%;
   }
-  /* Footer */
-  .start {
-    background-color: #9dc9c8;
-    margin: 0 auto;
-    padding-top: 62px;
-    padding-left: 57px;
-    padding-bottom: 63.46px;
-    padding-right: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    /* max-width: 1600px; */
-  }
-  .start h1 {
-    font-family: "Roboto Slab";
-    font-weight: 700;
-    letter-spacing: 0em;
-    text-align: left;
-    margin-bottom: 22.33px;
-    font-size: 26px;
-    line-height: 101.38%;
-  }
-  .start div {
-    margin-bottom: 50px;
-  }
-  .start div p {
-    font-size: 12px;
-    line-height: 101.38%;
-    letter-spacing: 0em;
-    text-align: left;
-  }
-  .start div span {
-    font-size: 37px;
-    line-height: 101.38%;
-    font-weight: 400;
-    letter-spacing: 0em;
-    text-align: left;
-  }
-  .start ul {
-    display: flex;
-    column-gap: 31.16px;
-  }
-  .start ul li span {
-    font-size: 12px;
-    line-height: 101.38%;
-    letter-spacing: 0em;
-    text-align: left;
-    margin-bottom: 15px;
-    display: block;
-  }
-  .start ul li p {
-    font-size: 10px;
-    line-height: 101.38%;
-    font-weight: 400;
-    letter-spacing: 0em;
-    text-align: left;
-    max-width: 140px;
-  }
-  footer {
-    background-color: #000;
-    margin: 0 auto;
-    padding-top: 23.3px;
-    padding-left: 50px;
-    padding-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 50.45px;
-    position: relative;
-    /* max-width: 1600px; */
-  }
-  footer>div{
-    margin-bottom: 48.99px;
-  }
-  footer .left-footer {
-    display: flex;
-    flex-direction: column;
-    row-gap: 48.99px;
-  }
-  footer .left-footer img {
-    width: 53.59px;
-    height: 31.69px;
-  }
-  footer .left-footer ul {
-    display: flex;
-    column-gap: 11.65px;
-  }
-  footer .left-footer ul li a img {
-    width: 15.38px;
-    height: 15.38px;
-  }
-  footer .right-footer {
-    display: flex;
-    color: #fff;
-    row-gap: 15px;
-    margin-top: 48.99px;
-  }
-  footer .right-footer ul {
-    display: flex;
-    row-gap: 15px;
-    flex-direction: column;
-  }
-  footer .right-footer ul li {
-    display: flex;
-    column-gap: 10.25px;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 101.38%;
-  }
-  footer .right-footer ul li img {
-    width: 12.58px;
-    height: 12.58px;
-  }
-  footer .bottom-footer {
-    color: #fff;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 101.38%;
-    /* or 10px */
-
-    color: #ffffff;
   /* ------------------Rashad------------------ */
   .course{
     margin-top: 85px !important;
