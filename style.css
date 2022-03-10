@@ -230,7 +230,7 @@ body {
     row-gap: 136px;
     position: relative;
     margin: 0 auto;
-    padding: 0 84px;
+    padding: 0 210px;
     max-width: 1600px;
   }
   .course h1 {
@@ -245,7 +245,7 @@ body {
     flex-wrap: wrap;
     column-gap: 37px;
     row-gap: 41px;
-    width: 105%;
+    width: 113%;
   }
   .course .boxes {
     box-shadow: 0 0 10px 0 rgb(1 1 1 / 20%);
