@@ -315,7 +315,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    max-width: 1600px;
+    max-width: 100%;
   }
   .static h1 {
     font-family: "Roboto Slab";
@@ -368,7 +368,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    max-width: 1600px;
+    max-width: 100%;
   }
   .start h1 {
     font-family: "Roboto Slab";
@@ -425,7 +425,7 @@ body {
     flex-direction: column;
     row-gap: 147px;
     position: relative;
-    max-width: 1600px;
+    max-width: 100%;
   }
   footer .left-footer {
     display: flex;
